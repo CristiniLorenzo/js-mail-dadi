@@ -11,9 +11,9 @@ numberButton.addEventListener('click', function(){
     console.log(randomUserNumber)
 
     if (randomPcNumber > randomUserNumber) {
-        alert('HAI PERSO')
+        alert('HAI PERSO il tuo numero è ' + randomUserNumber + ' e il mio numero è ' + randomPcNumber)
     } else if(randomPcNumber < randomUserNumber) {
-        alert('BRAVO HAI VINTO')
+        alert('BRAVO! HAI VINTO il tuo numero è ' + randomUserNumber + ' e il mio numero è ' + randomPcNumber)
     } else {
         alert('PAREGGIO')
     }
